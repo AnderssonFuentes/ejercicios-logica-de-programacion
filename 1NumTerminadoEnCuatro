@@ -1,0 +1,13 @@
+ Algoritmo NumTerminadoEnCuatro
+	Definir num,ud Como Entero
+	Escribir 'Escriba un número entero'
+	Leer num
+	Si num<>0 Entonces
+		ud <- num MOD 10
+	FinSi
+	Si ud=4 Entonces
+		Escribir 'El número ingresado termina en ',ud
+	SiNo
+		Escribir 'El número ingresado no termina en 4'
+	FinSi
+FinAlgoritmo
