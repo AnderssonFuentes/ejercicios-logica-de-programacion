@@ -1,8 +1,11 @@
- Algoritmo NumTerminadoEnCuatro
+//Leer un número entero y determinar
+//si es un número terminado en 4.
+
+Algoritmo NumTerminadoEnCuatro
 	Definir num,ud Como Entero
 	Escribir 'Escriba un número entero'
 	Leer num
-	Si num<>0 Entonces
+	Si num <> 0 Entonces
 		ud <- num MOD 10
 	FinSi
 	Si ud=4 Entonces
