@@ -2,7 +2,9 @@
 //si es un número terminado en 4.
 
 Algoritmo NumTerminadoEnCuatro
-	Definir num,ud Como Entero
+	//ENTRADA: 1. Se necesitará un número entero para realizar el processo
+	//2. Declarar las variables necesarias para su uso posteriormente
+	Definir num, ud Como Entero
 	Escribir 'Escriba un número entero'
 	Leer num
 	Si num <> 0 Entonces
