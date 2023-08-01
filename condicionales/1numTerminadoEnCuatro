@@ -1,0 +1,24 @@
+//Leer un número entero y determinar
+//si es un número terminado en 4.
+
+Algoritmo numTerminadoEnCuatro
+	//ENTRADA: 1. Se necesitará un número entero para realizar el processo
+	//2. Declarar las variables necesarias para su uso posteriormente
+	Definir num, ud Como Entero
+	//3. Solicitar por teclado el ingreso de un número entero
+	Escribir "Por favor, escribir un número: "
+	//4. Guardar el valor en su respectiva variables para luego ser procesada
+	Leer num
+	
+	//PROCESSO:
+	//
+	
+	Si num <> 0 Entonces
+		ud <- num MOD 10
+	FinSi
+	Si ud=4 Entonces
+		Escribir 'El número ingresado termina en ',ud
+	SiNo
+		Escribir 'El número ingresado no termina en 4'
+	FinSi
+FinAlgoritmo
