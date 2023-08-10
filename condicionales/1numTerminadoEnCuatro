@@ -1,24 +1,30 @@
-//Leer un nÃºmero entero y determinar
-//si es un nÃºmero terminado en 4.
+//#1. Leer un número entero y determinar
+//si es un número terminado en 4.
 
 Algoritmo numTerminadoEnCuatro
-	//ENTRADA: 1. Se necesitarÃ¡ un nÃºmero entero para realizar el processo
-	//2. Declarar las variables necesarias para su uso posteriormente
+	//ENTRADA: 
+	//1. Se necesitará un número entero para realizar el processo
+	//2. Declarar las variables necesarias para su processo posteriormente
 	Definir num, ud Como Entero
-	//3. Solicitar por teclado el ingreso de un nÃºmero entero
-	Escribir "Por favor, escribir un nÃºmero: "
-	//4. Guardar el valor en su respectiva variables para luego ser procesada
+	//3. Solicitar por teclado el ingreso de un número entero
+	Escribir "Por favor, escribir un número: "
+	//4. Guardar el valor en su respectiva variable para su processo
 	Leer num
 	
 	//PROCESSO:
 	//
 	
+	//5. Uso de CONDICIONAL para evaluar que el número sea distinto de cero,
+	//si la condición se cumple, 
 	Si num <> 0 Entonces
+		//6. Se realiza la separación del último dígito para su 
+		//posterior processo
 		ud <- num MOD 10
 	FinSi
+	
 	Si ud=4 Entonces
-		Escribir 'El nÃºmero ingresado termina en ',ud
+		Escribir 'El número ingresado termina en ',ud
 	SiNo
-		Escribir 'El nÃºmero ingresado no termina en 4'
+		Escribir 'El número ingresado no termina en 4'
 	FinSi
 FinAlgoritmo
