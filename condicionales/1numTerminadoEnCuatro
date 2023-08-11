@@ -22,9 +22,9 @@ Algoritmo numTerminadoEnCuatro
 		ud <- num MOD 10
 	FinSi
 	
-	Si ud=4 Entonces
+	Si ud == 4 Entonces
 		Escribir 'El número ingresado termina en ',ud
 	SiNo
-		Escribir 'El número ingresado no termina en 4'
+		Escribir 'El número ingresado NO termina en 4'
 	FinSi
 FinAlgoritmo
